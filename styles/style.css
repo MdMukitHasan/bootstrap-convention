@@ -1,0 +1,70 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500;700&family=Roboto&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/* common utilities */
+body {
+    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn {
+    font-weight: 700;
+}
+
+/* navbar style */
+.navbar-text {
+    font-weight: 700;
+    font-size: 22px;
+    color: #3E3E3E;
+}
+
+/* slider or card style */
+.headline {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.card-text {
+    font-weight: 700;
+    color: #6C6C6C;
+}
+
+/* our package card style */
+.our-package {
+    font-weight: 600;
+    font-size: 38px;
+    text-align: center;
+    color: #0A0826;
+}
+
+.fa-circle-check {
+    padding-right: 10px;
+}
+
+/* .card:hover {
+    background-color: skyblue;
+    width: 280px;
+} */
+
+/* banker card style */
+.banker-details {
+    text-align: center;
+}
+
+.card-body-banker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
